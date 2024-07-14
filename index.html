@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronen Taich Online Resume</title>
+    <link rel="icon" type="image/png" href="pictures/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <div class="header-container">
+      <header>
+        <div class="header-content">
+          <h1>Hi, I'm Ronen.</h1>
+          <!-- <img
+            src="/banner_pic.jpeg"
+            alt="Profile Picture"
+            class="profile-picture"
+          /> -->
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/ronentaich/" target="_blank"
+              >LinkedIn Profile
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/ronentaich17" target="_blank"
+              >GitHub Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate software engineer who loves making products that have a
+        positive impact on people's lives. I graduated from UC Davis in June
+        2023 with a bachelors degree in computer science and worked as both a
+        research and teaching assistant during my studies. Since graduating, I
+        have been contributing to projects ranging from full-stack mobile
+        development to test automation and embedded software engineering. I've
+        been fortunate to learn from talented, hard-working professors and
+        engineers, and look forward to applying those lessons to continue making
+        products that people can rely on.
+      </p>
+      <p>
+        When I'm not coding, you can find me painting, exploring new
+        technologies, or contributing to open-source projects. I'm always eager
+        to learn and take on new challenges that allow me to grow both
+        personally and professionally.
+      </p>
+      <p>
+        Feel free to check out my
+        <a href="https://github.com/ronentaich17" target="_blank"
+          ><u>GitHub profile</u></a
+        >
+        to see some of the projects I've worked on!
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li>
+          <div class="project-header">
+            <button class="project-toggle">
+              Sign Language Detector & Translator
+            </button>
+          </div>
+          <div class="project-description">
+            <p>
+              During my senior year at UC Davis, I worked alongside a team of
+              engineers from the Davis Data Science Club to create a product
+              that could detect sign language from a user via webcam and
+              translate what they were gesturing to english in real-time.
+            </p>
+            <p>
+              Our tech stack included <b>Python, TensorFlow, and OpenCV</b>. We
+              overcame challenges in enhancing model training, model efficiency,
+              achieving real-time processing, and refining user interface
+              design. At the end of the quarter, we presented the project to the
+              club and successfully displayed its ability to tranlsate sign
+              language gestures in real time.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="project-header">
+            <button class="project-toggle">FactFlow</button>
+          </div>
+          <div class="project-description">
+            <p>
+              Factflow is a full-stack web application that showcases curated,
+              user-submitted content such as fun facts, articles, and more,
+              sourced from credible sources across various topics including
+              technology, entertainment, and finance.
+            </p>
+            <p>
+              This application utilizes
+              <b
+                >React, Javascript, HTML, CSS for the frontend and a PostgreSQL
+                database for the backend.</b
+              >
+              Feel free to check out the site through this
+              <a href="https://factflowbyronen.netlify.app/" target="_blank"
+                ><u>link</u></a
+              >.
+            </p>
+            <img
+              src="pictures/factflow.png"
+              alt="Factflow screenshot"
+              class="description-pictures"
+            />
+            <img
+              src="pictures/factflow_postfact.png"
+              alt="Factflow post screenshot"
+              class="description-pictures"
+            />
+          </div>
+        </li>
+        <!-- Add more projects as needed -->
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="experience-list">
+        <li>
+          <div class="experience-header">
+            <button class="experience-toggle">
+              Software Engineer at PsiQuantum
+            </button>
+            <span class="experience-dates">Mar 2024 - Present</span>
+          </div>
+          <div class="experience-description">
+            <p>
+              PsiQuantum's mission is to build the world's first fault-tolerant,
+              fully error-corrected quantum computer, playing a part in this
+              goal has been an incredible opportunity. As a software engineer in
+              the systems validation group, my work has been comprised of test
+              automation for optical loss measurements, as well as custom driver
+              development for test and measusment equipment in the lab, such as
+              power meters and temperature controllers. I mainly use
+              <b
+                >Python, paired with various data science and testing libraries
+                such as Pandas, NumPy, and pyTest</b
+              >.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="experience-header">
+            <button class="experience-toggle">
+              Software Engineer at The Heart Center
+            </button>
+            <span class="experience-dates">Dec 2023 - Mar 2024</span>
+          </div>
+          <div class="experience-description">
+            <p>
+              The Heart Center is a non-profit whose goal is to provide mental
+              health resources to individuals who have been impacted by
+              incarceration. During my time there, I helped out in the planning
+              and early development stages of their mobile, live-streaming
+              meditation app. Acting as co-tech lead, I would engage in weekly
+              meetings with the CEO and technical lead to discuss sprint
+              progress, roadmap future features, and ensure developments were
+              aligned with the nonprofit’s mission.
+            </p>
+            <p>
+              As a developer, I implemented various authentication features
+              using <b>Flutter, Dart, and Firebase</b>.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="experience-header">
+            <button class="experience-toggle">
+              Undergraduate Research Assistant at UC Davis Genome Center
+            </button>
+            <span class="experience-dates">Dec 2022 - Dec 2023</span>
+          </div>
+          <div class="experience-description">
+            <p>
+              I worked at KorfLab under the UC Davis Genome Center as a software
+              developer, creating a package to analyze alternative splicing in
+              complex genomes to predict the resulting protein isoforms,
+              providing insights regarding gene function for researchers
+              studying disease mechanisms and biomarker discovery.
+            </p>
+            <p>
+              This was implemented using a modified,
+              <b>stochastic Viterbi algorithm</b>, written in
+              <b>Python and Go</b>. In addition, I also led the documentation of
+              BLAST,a program for comparing primary biological sequence
+              information, such as the amino-acid sequences of proteins or the
+              nucleotides of DNA and/or RNA sequences
+            </p>
+            <img
+              src="pictures/viterbi.png"
+              alt="Factflow screenshot"
+              class="description-pictures"
+            />
+            <img
+              src="pictures/alt_splicing.png"
+              alt="Factflow screenshot"
+              class="description-pictures"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="experience-header">
+            <button class="experience-toggle">
+              Undergraduate Teaching Assistant at De Anza College
+            </button>
+            <span class="experience-dates">Jun 2021 - Sept 2021</span>
+          </div>
+          <div class="experience-description">
+            <p>
+              Before moving to Davis, I spent the summer after my last quarter
+              at De Anza working as a TA for their introduction to Python
+              course, CIS 40. Here, I supported approximately eighty students,
+              helping them enhance their programming skills with personalized
+              assistance and regular support.
+            </p>
+            <p>
+              I also led weekly group discussions for students, focusing on key
+              Python concepts like variables, loops, and classes, which helped
+              them solve problems more efficiently.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Ronen Taich. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
