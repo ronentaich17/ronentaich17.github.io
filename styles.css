@@ -374,4 +374,10 @@ button:hover,
     padding: 10px 12px;
     font-size: 1em;
   }
+  /* Make images responsive */
+  .description-pictures {
+    max-width: 85%;
+    height: auto;
+    border-radius: 8px;
+  }
 }
